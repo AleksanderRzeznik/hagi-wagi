@@ -1,0 +1,42 @@
+groszek = {
+    "jedzenie": {
+        "pieczywo": 34,
+        "słodycze": 12
+    },
+    "picie": {
+        "alkochol": 47,
+        "nie alkochol": 25
+    }
+}
+
+while(True):
+    print("Magazyn sklepu groszek")
+    print("wybierz opcję")
+    print("1) > dodaj produkt")
+    print("2)> usuń produkt")
+    print("3)> sprawdź dostępność produktu")
+    print("4)> wyświetl wszystkie dostępne produkty")
+    print("q) zamknij program")
+    wybor = input("wybierz opcję: ")
+    if wybor == '1':
+        slownik = input('do jakiej kategorji dodajemy produkt: ')
+        key = input("jaki produkt dodajemy: ")
+        value = int(input("ile produktu zostanie dodane: "))
+        groszek[slownik][key] = value
+        print(groszek)
+        break
+    elif wybor == '2':
+        slownik2 = input('z jakiej kategorji usuwamy produkt: ')
+        key2 = input("jaki produkt usuwamy: ")
+        del groszek[slownik2][key2] 
+        break
+    elif wybor == '3':
+        slownik3 = input('z jakiej kategorji wyświetlamy stan produktu: ')
+        key3 = input("jaki produkt wyświetlić: ")
+        print(groszek[slownik3][key3])
+        break
+    elif wybor == '4':
+        
+        break
+    elif wybor == 'q':
+        break
