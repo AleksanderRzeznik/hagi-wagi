@@ -1,0 +1,35 @@
+1.
+const heder = document.querySelector("#main-header")
+2.
+const listwww = document.querySelectorAll("nav > li")
+3.
+const pierwbutt = document.querySelector(".delete-trigger")
+const pierwhole = pierwbutt.firstElementChild
+4.
+const arena = document.querySelectorAll(#content-area >section)
+5.
+const sekretdaty = document.querySelector("[data-secret]")
+6.
+const linkdaty = document.querySelector("a[data-link='home']")
+const href = linkdaty.href
+7.
+const jaja = document.querySelector("#trigger-btn")
+jaja.closest(".level-1")
+8.
+const wiersze = document.querySelectorAll("tbody > tr]")
+9.
+const coszobrazkiem = document.querySelector("figcaption")
+const mainimydz = coszobrazkiem.previousSibling("#main-image")
+10.
+const wszystkieczekboksy = document.querySelectorAll("legend > checkbox")
+11.
+const uzytkownik = document.querySelector("#username")
+const stary = uzytkownik.parentElement("#username")
+12.
+const porwaniedzieci = document.querySelector(".notification-wrapper")
+const dzieci = porwaniedzieci.childNodes(".notification-wrapper")
+13.
+const tekstsam = document.querySelector("h1").textContent
+14.
+const nolimilestones = document.querySelector("#notification-list")
+const ostatnie = nolimilestones.lastElementChild("#notification-list")
