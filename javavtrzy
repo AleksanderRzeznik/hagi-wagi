@@ -33,3 +33,30 @@ const tekstsam = document.querySelector("h1").textContent
 14.
 const nolimilestones = document.querySelector("#notification-list")
 const ostatnie = nolimilestones.lastElementChild("#notification-list")
+15.
+const wszyskieklasyczycos = document.querySelectorAll(".nest.level-2")
+16.
+const novalista = document.createElement("li");
+const navi = document.querySelector("nav-list");
+navi.reappendChild(li);
+17.
+
+18.
+
+19.
+const ostryga = document.createElement("p")
+ostryga.textContent = "Azure tommorow"
+const gotowanaostryga = document.querySelector("#forms-demo")
+gotowanaostryga.prepend(ostryga)
+20.
+const pierug = document.createElement("ul")
+const pierug2 = document.createElement("ul")
+const pierug3 = document.createElement("ul")
+pierug.textContent = "3 babies"
+pierug2.textContent = "in the backseat"
+pierug3.textContent = "singing to youuu"
+const gotowanypierug = document.querySelector("#skill-list")
+gotowanypierug.prepend(pierug)
+gotowanypierug.prepend(pierug2)
+gotowanypierug.prepend(pierug3)
+21.
