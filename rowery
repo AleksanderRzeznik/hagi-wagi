@@ -1,0 +1,62 @@
+rowery = {
+    "Rower1": {
+        "ID": 1,
+        "model": "ow-ca",
+        "typ": "miejski",
+        "cena_za_godzine": 180,
+        "dostępny": True
+    },
+    "Rower2": {
+        "ID": 2,
+        "model": "la-mus",
+        "typ": "górski",
+        "cena_za_godzine": 200,
+        "dostępny": True
+    },
+    "Rower3": {
+        "ID": 3,
+        "model": "i-dota",
+        "typ": "górski",
+        "cena_za_godzine": 160,
+        "dostępny": False
+    },
+    "Rower4": {
+        "ID": 4,
+        "model": "deb-ill",
+        "typ": "miejski",
+        "cena_za_godzine": 120,
+        "dostępny": False
+    },
+    "Rower5": {
+        "ID": 5,
+        "model": "ba-ran",
+        "typ": "sportowy",
+        "cena_za_godzine": 240,
+        "dostępny": True
+    }
+}
+
+while(True):
+    print("Wypożyczalnia rowerów")
+    print("wybierz opcję")
+    print("1) > oddaj rower")
+    print("2)> wypożycz rower")
+    print("3)> oblicz koszty wypożyczenia")
+    print("4)> wyświetl wszystkie dostępne rowery")
+    print("5)> wyświetl wszystkie rowery")
+    print("6)> wyświetl najtańszy lub najdroższy rower")
+    print("q) zamknij program")
+    wybor = input("wybierz opcję: ")
+    
+    if wybor == '1': 
+        slownik = input("który rower oddajesz: ")
+        rowery[slownik]["dostępny"] = True
+        print(rowery[slownik])
+    elif wybor == '2':
+        slownik = input("który rower oddajesz: ")
+        rowery[slownik]["dostępny"] = False
+        print(rowery[slownik])
+    elif wybor == '4':
+        print(rowery)
+    elif wybor == "q":
+        break;
