@@ -1,0 +1,109 @@
+1.
+<?php
+
+$wiek = 24;
+
+if ($wiek >= 1) {
+    echo "Dodatnia";
+} elseif ($wiek <= -1) {
+    echo "Ujemna";
+} elseif ($wiek == 0) {
+    echo "Równa zero";
+}
+
+?>
+
+2.
+<?php
+
+$l = 24;
+
+if ($l % 2 === 0) {
+    echo "liczba jest parzysta.";
+} else {
+    echo "jest nieparzysta"
+}
+
+?>
+3.
+<?php
+
+$liczba = 3;
+$liczba2 = 2;
+
+if ($liczba < $liczba2) {
+    echo "$liczba2";
+} elseif ($liczba > $liczba2) {
+    echo "$liczba";
+}
+
+?>
+
+4.
+<?php
+
+$wiek = 24;
+
+if ($wiek >= 18) {
+    echo "Jesteś pełnoletni.";
+} else {
+    echo "Nie jesteś jeszcze pełnoletni.";
+}
+
+?>
+5.
+<?php
+
+$ = 9;
+
+if ($l == 14) {
+    echo "6";
+} elseif ($l == 13) {
+    echo "5";
+}
+elseif ($l == 9) {
+    echo "4";
+}
+elseif ($l == 7) {
+    echo "3";
+}
+elseif ($l == 4) {
+    echo "2";
+}
+elseif ($l <= 4) {
+    echo "1";
+}
+
+?>
+
+6.
+<?php
+
+$l = 2024;
+
+if ($l % 4 == 0) {
+    echo "Rok przestępny";
+} else {
+    echo "Nie rok przestępny";
+}
+
+?>
+
+7.
+<?php
+
+
+function kalk($a, $znak, $b){
+    if ($znak == "+") {
+        $c = $a + $b;
+    } elseif ($znak == "-"){
+        $c = $a - $b;
+    } elseif ($znak == "/"){
+        $c = $a / $b;
+    } elseif ($znak == "*"){
+        $c = $a * $b;
+    }
+    echo "znak: " . $znak . "wynik: " . $c;
+}
+    kalk(3, "+", 3)
+?>
