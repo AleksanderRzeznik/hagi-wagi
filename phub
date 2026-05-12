@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<?php
+
+// $name = "Alan"; 
+// $age = 17; 
+// $country = "Japonii";
+// print("Nazywam się $name, mam $age lat i mieszkam w $country");
+
+
+// $width = 8;
+// $height = 5;
+// $product = $width * $height;
+// print($product);
+
+
+// $zmienna = 10;
+// print($zmienna + 1);
+
+
+// $ismember = false;
+// var_dump($ismember);
+
+
+// $uno = 5;
+// $dos = 15;
+// $sum = $uno + $dos;
+// $product = $uno * $dos;
+// $mod = $uno % $dos;
+// echo "$sum, $product, $mod";
+//-------------------------------------------------------------------------- 2
+
+// $age = 24;
+
+// if ($age >= 18) {
+//     echo "Możesz głosować.";
+// } else {
+//     echo "Nie możesz głosować.";
+// }
+
+
+
+// $temperature = 24;
+
+// if ($temperature >= 1) {
+//     echo "temperatura jest dodatnia";
+// } elseif ($temperature <= -1) {
+//     echo "temperatura jest ujemna";
+// } elseif ($temperature == 0) {
+//     echo "temperatura jest równa zero";
+// }
+
+
+
+// $color = 1;
+// switch ($color) {
+//     case 1:
+//         echo "niebieski";
+//         break;
+//     case 2:
+//         echo "czerwony";
+//         break;
+//     case 3:
+//         echo "zielony";
+//         break;
+//     default:
+//         echo "Inny kolor";
+//     }
+
+
+
+// $grade = 69;
+// if ($grade >= 50) {
+//     echo "zdajesz";
+// }
+// else{
+//     echo "niezdajesz";
+// }
+  
+
+
+// $username = "";
+// if ($username == " " || $username == "") {
+//     $username = "guest";
+//     echo $username;
+// }
+// else{
+//     echo $username;
+// }
+
+
+
+
+?>
+</body>
+</html>
