@@ -96,7 +96,24 @@
 
 
 
+// for ($for = 1; $for <= 10; $for++){
+//     echo $for . " ";
+// }
 
+
+
+// $liczyc = 1;
+// while ($liczyc <= 10) {
+//     echo $liczyc * 2 . " ";
+//     $liczyc++;
+// }
+
+
+
+// $lista = ["miku", 'teto', "neru", "gumi", "r34 girl"];
+// foreach($lista as $list){
+//     echo $list . "\n";
+// }
 ?>
 </body>
 </html>
