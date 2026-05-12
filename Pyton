@@ -1,0 +1,23 @@
+liczba = input("Podaj liczbę: ")
+
+for znak in liczba:
+    if znak == '0':
+        print("zero", end=" ")
+    elif znak == '1':
+        print("jeden", end=" ")
+    elif znak == '2':
+        print("dwa", end=" ")
+    elif znak == '3':
+        print("trzy", end=" ")
+    elif znak == '4':
+        print("cztery", end=" ")
+    elif znak == '5':
+        print("pięć", end=" ")
+    elif znak == '6':
+        print("sześć", end=" ")
+    elif znak == '7':
+        print("siedem", end=" ")
+    elif znak == '8':
+        print("osiem", end=" ")
+    elif znak == '9':
+        print("dziewięć", end=" ")
