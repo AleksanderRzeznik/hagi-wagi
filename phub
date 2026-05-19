@@ -260,6 +260,20 @@
 
 
     session_destroy()
+
+function dzielLiczby($liczba1, $liczba2) {
+    try {
+        if ($liczba2 == 0) {
+            throw new Exception("Nie można dzielić przez zero!");
+        }
+        $wynik = $liczba1 / $liczba2;
+        return $wynik;
+    } catch (Exception $e) {
+        return "Wystąpił błąd: " . $e->getMessage();
+    }
+
+}
+echo "". dzielLiczby(2,1)
   }
   ?>
 </body>
