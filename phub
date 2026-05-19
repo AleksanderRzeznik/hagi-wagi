@@ -1,4 +1,27 @@
 <!DOCTYPE html>
+<?php
+// setcookie("username", "C00lkidd", time() + (86400 * 7), "/")
+
+
+// if (isset($_COOKIE["username"])) {
+//     echo "Hi!, " . $_COOKIE["username"];
+// }
+
+
+// setcookie("background-color", "purple", time() + (86400 * 7), "/");
+
+
+
+// setcookie("session_id", "", time() - 3600, "/")
+
+
+
+// echo '<pre>';
+// print_r($_COOKIE);
+// echo '</pre>';
+
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -102,10 +125,10 @@
 
 
 
-// $liczyc = 1;
-// while ($liczyc <= 10) {
-//     echo $liczyc * 2 . " ";
-//     $liczyc++;
+//  $liczyc = 1;
+//  while ($liczyc <= 10) {
+//      echo $liczyc * 2 . " ";
+//      $liczyc++;
 // }
 
 
@@ -114,6 +137,130 @@
 // foreach($lista as $list){
 //     echo $list . "\n";
 // }
+
+
+
+
+// $petla = 1;
+// do{
+//     echo $petla;
+//     $petla++;
+// }while($petla = 1 > 4);
+
+
+
+// $sumka = 0;
+// for($l = 1; $l <= 100; $l++){
+// $sumka += $l;
+// echo $sumka . "\n"; 
+// }
+
+
+
+// $color = ["red","green","blue"];
+// echo $color[0];
+
+
+
+// $produkt = [
+//     'name' => 'trechstone',
+//     'price' => 66,
+//     'in_stock' => 97
+// ];
+// echo $produkt['name'];
+
+
+
+// $fruits = ["Orange", "Apple", "Banan", "Ananas"];
+// if (in_array("Banan", $fruits)){
+//     echo "Ino banan jest";
+// } else {
+//     echo "Ino ni ma banana";
+// }
+
+
+
+
+// $user = [
+//     'name' => 'John doe',
+//     'age' => 31,
+//     'city' => 'Lublin'
+// ];
+
+// print_r(array_keys($user));
+
+
+// function sayHello($name) {
+//     echo "Witaj!, $name";
+// }
+// sayHello($name = "Aleksander");
+
+
+// function multiply($a, $b) {
+//     echo $a * $b;
+// }
+// multiply($a = 3, $b = 2,);
+
+
+// function isEven($n) {
+//     if ($n * 2) {
+//         echo 'TRUE';
+//     } else {
+//         echo 'FALSE';
+//     }
+// }
+// isEven($n = 2);
+
+
+
+// function formatPrice($price) {
+//     echo number_format($price, 2, ',', ' '); 
+// }
+// formatPrice($price = 20);
+
+
+
+// function greetUser($name, $age) {
+//     echo "nazywam się " . $name . " i mam " . $age . " lat "; 
+// }
+// greetUser($name = "Jane", $age = 29);
+
+
+
+
 ?>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <?php
+  session_start();
+
+  $_SESSION["user_id"] = 1;
+  $_SESSION["username"] = "007n7";
+  $_SESSION["e-mail"] = "mail.@gmail.com";
+
+
+
+  if (isset($_SESSION["username"])) {
+    echo "Zalogowano jako: " . $_SESSION["username"];
+
+
+
+    unset($_SESSION["e-mail"]);
+
+
+
+    session_destroy()
+  }
+  ?>
 </body>
 </html>
