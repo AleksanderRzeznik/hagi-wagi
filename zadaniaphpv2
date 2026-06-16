@@ -1,0 +1,128 @@
+2.
+<?php
+$imie_i_nazwisko = $_POST['imie_i_nazwosko'];
+$login = $_POST['login'];
+$haslo = $_POST['haslo'];
+$wiek = $_POST['wiek'];
+$kraj_pochodzenia = $_POST['kraj_pochodzenia'];
+
+echo "<table>
+    <tr>
+        <th>imie</th>
+        <th>login</th>
+        <th>haslo</th>
+        <th>wiek</th>
+        <th>kraj</th>
+    </tr>
+    <td>
+        <th>$imie_i_nazwisko</th>
+        <th>$login</th>
+        <th>$haslo</th>
+        <th>$wiek</th>
+        <th>$kraj_pochodzenia</th>
+    </td>
+</table>"
+
+
+?>
+3.
+      <?php
+$conn = mysqli_connect("localhost", "root", "", "verity");
+?>
+4.
+<?php
+$imie = $_POST['imie'];
+$data_urodzenia = $_POST['data_urodzenia'];
+$ulubiony_kolor = $_POST['ulubiony_kolor'];
+$poziom_zadowolenia = $_POST['poziom_zadowolenia'];
+$krotka_opinia = $_POST['krotka_opinia'];
+
+echo "<table>
+    <tr>
+        <th>imie</th>
+        <th>data_urodzenia</th>
+        <th>ulubiony_kolor</th>
+        <th>poziom_zadowolenia</th>
+        <th>krotka_opinia</th>
+    </tr>
+    <td>
+        <th>$imie</th>
+        <th>$data_urodzenia</th>
+        <th>$ulubiony_kolor</th>
+        <th>$poziom_zadowolenia</th>
+        <th>$krotka_opinia</th>
+    </td>
+</table>";
+
+
+?>
+5.
+<?php
+$poziom_kursu = $_POST['poziom_kursu'];
+$zainteresowania = $_POST['zainteresowania'];
+$miasto_zajec = $_POST['miasto_zajec'];
+$uwagi_do_kursu = $_POST['uwagi_do_kursu'];
+echo "<table>
+    <tr>
+        <th>poziom_kursu</th>
+        <th>zainteresowania</th>
+        <th>miasto_zajec</th>
+        <th>uwagi_do_kursu</th>
+    </tr>
+    <td>
+        <th>$poziom_kursu</th>
+        <th>$zainteresowania</th>
+        <th>$miasto_zajec</th>
+        <th>$uwagi_do_kursu</th>
+    </td>
+</table>";
+
+
+?>
+6.
+<?php
+$numer_telefonu = $_POST['numer_telefonu'];
+$adres_strony_int = $_POST['adres_strony_int'];
+$dodanie_pliku = $_POST['dodanie_pliku'];
+echo "<table>
+    <tr>
+        <th>numer_telefonu</th>
+        <th>adres_strony_int</th>
+        <th>dodanie_pliku</th>
+    </tr>
+    <td>
+        <th>$numer_telefonu</th>
+        <th>$adres_strony_int</th>
+        <th>$dodanie_pliku</th>
+    </td>
+</table>";
+
+
+?>
+8.
+<?php
+$id_ucznia = $_POST['id_ucznia'];
+$imie_ucznia = $_POST['imie_ucznia'];
+$nazwisko_ucznia = $_POST['nazwisko_ucznia'];
+$email_ucznia = $_POST['email_ucznia'];
+$wiek_ucznia = $_POST['wiek_ucznia'];
+$id_klasy_ucznia = $_POST['id_klasy_ucznia'];
+    
+echo "<table>
+    <tr>
+        <th>id_ucznia</th>
+        <th>imie_ucznia</th>
+        <th>nazwisko_ucznia</th>
+        <th>email_ucznia</th>
+        <th>wiek_ucznia</th>
+        <th>id_klasy_ucznia</th>
+    </tr>
+    <td>
+        <th>$id_ucznia</th>
+        <th>$imie_ucznia</th>
+        <th>$nazwisko_ucznia</th>
+        <th>$email_ucznia</th>
+        <th>$wiek_ucznia</th>
+        <th>$id_klasy_ucznia</th>
+    </td>
+</table>"
